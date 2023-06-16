@@ -1,0 +1,331 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+:root {
+    --green11: #042f2e;
+    --green10: #134e4a;
+    --green9: #115e59;
+    --green8: #0f766e;
+    --green7: #0d9488;
+    --green6: #209b8c;
+    --green5: #2dd4bf;
+    --green4: #5eead4;
+    --green3: #99f6e4;
+    --green2: #ccfbf1;
+    --green1: #f0fdfa;
+
+
+}
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Open Sans", sans-serif;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+
+    text-decoration: none;
+    color: #0C9255;
+    text-align: center;
+}
+
+
+
+
+
+body {
+    min-height: 100vh;
+    background-color: white;
+}
+
+.navbar {
+    height: 8vh;
+    background-color: #0C9255;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 5rem;
+}
+
+
+.left h1 {
+    margin-left: 18px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #d4ecdf;
+
+}
+
+.checkBtn {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.checkBtn {
+    cursor: pointer;
+    font-size: 30px;
+    float: right;
+    color: #91bbc0;
+    line-height: 80px;
+}
+
+.right ul {
+    display: flex;
+    list-style: none;
+}
+
+.right ul li a {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #c1fbdd;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.right ul li a:hover {
+    background-color: #32d87a;
+    border-radius: 7px;
+    color: rgb(22, 7, 36);
+}
+
+.fa-cart-shopping {
+    font-size: 1.4rem;
+    padding-right: 1.2rem;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.write {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.write1 {
+    color: #0C9255;
+
+
+    font-size: x-large;
+    margin-bottom: 2%;
+
+}
+
+.write2 {
+    display: flex;
+    align-items: center;
+
+    color: #0C9255;
+    margin-bottom: 10px;
+
+    gap: 10px;
+}
+
+.write3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.write3 .do {
+    background-color: #0C9255;
+    color: white;
+    padding: 2%;
+    border-radius: 10px;
+
+}
+
+.write3 a {
+
+    padding: 2%;
+    border: 2px solid #0C9255;
+    border-radius: 10px;
+
+
+
+}
+
+
+
+
+
+
+.first .container .image {
+
+    width: 35rem;
+
+}
+
+.circle {
+    background-color: #0C9255;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+
+}
+
+
+
+
+.section-service {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.card-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-service .heading h3 {
+    font-size: x-large;
+    color: #0C9255;
+}
+
+.card {
+    width: 300px;
+
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensure the image fills the card without distortion */
+    display: block;
+
+
+
+
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.card p {
+    font-size: 17px;
+    color: #888;
+    margin-bottom: 0;
+}
+
+
+
+
+
+.footcontainer {
+
+    background-image: url("image/pattern (1).svg");
+    background-size: cover;
+    max-width: 1536px;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.last {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 300px;
+
+    min-height: 200px;
+}
+
+.about p {
+    color: #084F24;
+    font-weight: 700;
+    line-height: 40px;
+    width: 400px;
+}
+
+.contact p {
+    color: white;
+    font-weight: 700;
+}
+
+.about,
+.categorylist,
+.contact,
+.aboutuslist {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+
+}
+
+.footcontainer a {
+    font-weight: 700;
+    color: rgb(9, 79, 36);
+}
+
+
+
+
+
+@media screen and (max-width:805px) {
+    .list {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(22, 7, 36);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 4rem;
+        left: 100%;
+        transition: all 1s;
+    }
+
+    #check {
+        display: none;
+    }
+
+    .checkBtn {
+        display: block;
+    }
+
+    #check:checked~ul {
+        left: 0%;
+    }
+}
